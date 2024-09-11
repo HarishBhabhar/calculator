@@ -38,12 +38,12 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
 
       - name: Build the project
-        run: ng build conditions
+        run: ng build qyrus-app
 
-      - name: Navigate to dist/conditions and publish
+      - name: Navigate to dist/qyrus-app and publish
         run: |
-          cd dist/conditions
-          npm publish --registry https://condition-builder-199375692857.d.codeartifact.ap-south-1.amazonaws.com/npm/calculator-repo/
+          cd dist/qyrus-app
+          npm publish --registry https://conditions-199375692857.d.codeartifact.ap-south-1.amazonaws.com/npm/calculator-repo/
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

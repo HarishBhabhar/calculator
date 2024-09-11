@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CalculatorComponent } from './calculator/calculator.component';
-import { QyrusAppModule } from 'qyrus-app';
+// import { QyrusAppModule } from 'qyrus-app';
 @NgModule({
   declarations: [
     AppComponent,
@@ -10,7 +10,7 @@ import { QyrusAppModule } from 'qyrus-app';
   ],
   imports: [
     BrowserModule,
-    QyrusAppModule
+    // QyrusAppModule
   ],
   providers: [],
   bootstrap: [AppComponent]
