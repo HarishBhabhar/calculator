@@ -1,6 +1,6 @@
 {
   "name": "qyrus-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/qyrus-app/fesm2015/qyrus-app.mjs",
   "scripts": {
     "build": "ng build qyrus-app",
